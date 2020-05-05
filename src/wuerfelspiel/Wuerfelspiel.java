@@ -16,9 +16,7 @@ public class Wuerfelspiel {
                 int w = wurf(); //Gewuerfelte Zahl
                 if(w !=1){ 
                     s= s+w; // Summe der gewürfelten Zahlen einer Runde
-                    //Die folgenden Anweisungen habe ich zur Überprüfung der Funktionalität des Programmes gewählt
-                    System.out.println("wurf "+w);
-                    System.out.println("s "+s);
+                  
                 }
                 else{
                     s=0;
